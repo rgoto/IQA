@@ -3,16 +3,17 @@
 
 double O2 (double O2){
 
+	double A = 110.8, B = -106, C = -3745;
+
 	if (O2 = 140){
 
-		Q9 = 47;
 
-		return Q9;
+		return 47;
 
 	}else{
 	
 
-	Q9 = 100.8 * exp (O2 + (-106 * -106) / -3745);
+	Q9 = A * exp ( pow ((O2 + B), 2) / C);
 
 
 	return Q9;

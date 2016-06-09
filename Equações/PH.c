@@ -3,22 +3,21 @@
 
 double PH (double PH){
 
+double A = 0.05421, B = 1.23, C = -0.09873;
+
 if (PH >= 12){
 
-	Q2 = 3.0;
-
-	return Q2;
+	return 3.0;
 
 }else if (PH < 2){
 
 
-	Q2 = 2.0;
-
-	return Q2;
+	return 2.0;
 
 }else{
 
-Q2 = 0.05421 * (pow (PH, 1.23 * PH * -0.09873 * PH * PH)) + 5.213;
+
+	Q2 = A * pow(PH, ((B * PH) + (C * pow( PH , 2 )))) + 5.213;
 
 return Q2;
 

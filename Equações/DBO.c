@@ -4,16 +4,17 @@
 double DBO (double DBO){
 
 
+double A = 102.6, B = -0.1101;
+
 if (DBO > 30){
 
-	Q3 = 2.0;
 
-	return Q3;
+	return 2.0;
 	
 }else{
 
 
-	Q3 = 102.6 * (pow (exp -0.101101 * DBO));
+	Q3 = A * exp((B * DBO));
 }
 
 
