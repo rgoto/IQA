@@ -69,7 +69,6 @@ double NT (double NT){
 	}
 }
 
-}
 
 
 double OD(double OD) {
