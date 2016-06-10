@@ -3,7 +3,7 @@
 
 double PH (double PH){
 
-double A = 0.05421, B = 1.23, C = -0.09873;
+double Q2, A = 0.05421, B = 1.23, C = -0.09873;
 
 if (PH >= 12){
 

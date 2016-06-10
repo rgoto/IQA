@@ -3,7 +3,7 @@
 
 double CF (double CF){
 
-double A = 98.03, B = -36.45, C = 3.138, D = 0.06776;
+double Q1, A = 98.03, B = -36.45, C = 3.138, D = 0.06776;
 
 
 if (CF > 1000000){

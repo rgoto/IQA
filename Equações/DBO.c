@@ -4,7 +4,7 @@
 double DBO (double DBO){
 
 
-double A = 102.6, B = -0.1101;
+double Q3, A = 102.6, B = -0.1101;
 
 if (DBO > 30){
 

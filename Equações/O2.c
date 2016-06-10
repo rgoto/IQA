@@ -3,7 +3,7 @@
 
 double O2 (double O2){
 
-	double A = 110.8, B = -106, C = -3745;
+	double Q9, A = 110.8, B = -106, C = -3745;
 
 	if (O2 = 140){
 
