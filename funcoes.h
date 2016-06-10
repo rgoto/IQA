@@ -9,5 +9,6 @@ double PH (double PH);
 double ST(double ST);
 double TU(double TU);
 double VT(double VT);
+double NT (double NT);
 
 #endif
