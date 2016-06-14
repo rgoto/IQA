@@ -5,23 +5,23 @@
 int main (void){
 	double cf, dbo, ft, nt, od, ph, st, tu, vt;
 
-		printf("Valor de Cloriformios Fecais\n");
+		printf("Valor de Cloriformios Fecais: ");
 			scanf("%lf", &cf);
-		printf("Valor de Demanda Bioquimica de Oxigenio\n");
+		printf("Valor de Demanda Bioquimica de Oxigênio: ");
 			scanf("%lf", &dbo);
-		printf("Valor de Fosforo Total\n");
+		printf("Valor de Fosforo Total: ");
 			scanf("%lf", &ft);
-		printf("Valor de Nitrogenio Total\n");
+		printf("Valor de Nitrogenio Total: ");
 			scanf("%lf", &nt);
-		printf("Valor de Oxidação Dissolvido\n");
+		printf("Valor de Oxigênio Dissolvido: ");
 			scanf("%lf", &od);
-		printf("Valor de pH\n");
+		printf("Valor de pH: ");
 			scanf("%lf", &ph);
-		printf("Valor de Solidos Totais\n");
+		printf("Valor de Solidos Totais: ");
 			scanf("%lf", &st);
-		printf("Valor de Turbidez\n");
+		printf("Valor de Turbidez: ");
 			scanf("%lf", &tu);
-		printf("Valor de Variação de temperatura\n");
+		printf("Valor de Variação de temperatura: ");
 			scanf("%lf", &vt);
 
 
@@ -41,7 +41,7 @@ double IQA, results[9];
 IQA = pow(results[0], 0.15) * pow(results[1], 0.10) * pow(results[2], 0.10) * pow(results[3], 0.10) * pow(results[4], 0.17)
  * pow(results[5], 0.12) * pow(results[6], 0.08) * pow(results[7], 0.08) * pow(results[8], 0.10);
 
-printf("Valor de IQA = %f\n", IQA);
+printf("\nValor de IQA = %f\n", IQA);
 printf("Classificação: ");
 
 if(IQA >= 80 && IQA <= 100){
